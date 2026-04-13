@@ -275,7 +275,7 @@ if st.session_state.logged_in and st.session_state.page in ["home", "dashboard"]
 
     st.sidebar.markdown("---")
 
-   sector_stocks = {
+    sector_stocks = {
 
     "IT": {
         "TCS": "TCS.NS", "Infosys": "INFY.NS", "Wipro": "WIPRO.NS",
